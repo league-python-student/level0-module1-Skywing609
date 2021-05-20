@@ -13,16 +13,18 @@ if __name__ == '__main__':
     
     # Ask the user for the radius in pixels and store it in a variable
     # simpledialog.askinteger()
-    
+    radius = input("What radius do you want your circle to be?")
+    sides = input("How many sides do you want in your polygon?")
     # Make a new turtle
-    
+    blob = turtle.Turtle()
+    blob.circle(int(radius), 360, int(sides) )
     # Have your turtle draw a circle with the correct radius
     # my_turtle.circle()
-
+    blob.penup()
     # Call the turtle .penup() method
-
+    blob.goto(80, 5)
     # Move your turtle to a new x,y position using .goto()
-
+    math.pi
     # Calculate the area of your circle and store it in a variable
     # Hint, you can use math.pi
     
